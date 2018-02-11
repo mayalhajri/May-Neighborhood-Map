@@ -30,7 +30,7 @@ var myLocations = [
         lng: 46.68390155,
         type: 'Cafe'
     }
-] 
+] ;
 function AppViewModel() {
 var map, clientID, clientSecret;
 var self = this;
