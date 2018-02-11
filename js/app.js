@@ -42,9 +42,9 @@ this.populateInfoWindow = function(marker, infowindow) {
             infowindow.setContent('');
             infowindow.marker = marker;
             // Foursquare API Client
-            clientID = "2G4BOAVMDDTBVKZOU0WI0IBXSQOCMDTIOWZCKXS4XO1RAC0R";
+            clientID = "TXBYHV1FMXT5TJPQLVRUXKJEL352ZF20AJMDNIJDSQAZFHNP";
             clientSecret =
-                "3UZMRJ1XEB1WDHZROFUCCIGDJCFMWPVRG5J4FFDWVDNHEV4K";
+                "50HS1TDR3XYXLBJVWEA1LKIYW1LHDHBZND2ON544TUSVYKGU";
             // URL for Foursquare API
             var apiUrl = 'https://api.foursquare.com/v2/venues/search?ll=' +
                 marker.lat + ',' + marker.lng + '&client_id=' + clientID +
